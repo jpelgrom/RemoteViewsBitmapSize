@@ -117,7 +117,7 @@ class MainActivity : ComponentActivity() {
                 480,
                 360,
                 Bitmap.Config.RGB_565
-            ) // the allocationByteSize of each frame will be 345600 bytes
+            ) // the allocationByteCount of each frame will be 345600 bytes
         }
         return frames
     }
